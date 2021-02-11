@@ -38,10 +38,10 @@ export const addSmurf = (newSmurf) => (dispatch) => {
       });
     })
     .catch((error) => {
-      console.log("full error message", error);
+      console.log("full error message", error.response);
       dispatch({
         type: ERROR,
-        payload: error.message,
+        payload: error.response.data.Error,
       });
     });
 };

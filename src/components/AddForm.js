@@ -79,7 +79,7 @@ class AddForm extends React.Component {
               className="alert alert-danger"
               role="alert"
             >
-              Error:{this.props.error}
+              {this.props.error}
             </div>
           )}
           <button
