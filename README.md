@@ -62,7 +62,7 @@ Go [here](./CodeGrade-webhook.md) to setup the CodeGrade webhook before you begi
 
 ##### POST '/smurfs'
 
-- [ ] Design the functionality to add a smurf to the Smurf DB you'll need all five fields. `name`, `position`, and `nickname`, `description`.
+- [x] Design the functionality to add a smurf to the Smurf DB you'll need all five fields. `name`, `position`, and `nickname`, `description`.
 
 Example of the shape of data to be sent to the `POST` endpoint. Note that id does not need to be sent and will be generated on the server:
 
@@ -75,7 +75,7 @@ Example of the shape of data to be sent to the `POST` endpoint. Note that id doe
 }
 ```
 
-- [ ] Double check to make sure that a smurf is created correctly once your functionality is built out.
+- [x] Double check to make sure that a smurf is created correctly once your functionality is built out.
 
 Initially Brainey will be in the array, but it takes more than one smurf to make the village. Be sure to add a few smurfs to populate our smurf village.
 
@@ -107,16 +107,16 @@ Example of object created in Smurf DB:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Plan and implement how you are going to manage your state for your application
-- [ ] You _must_ use Redux as your state management system
-- [ ] Complete the tasks listed within:
+- [x] Plan and implement how you are going to manage your state for your application
+- [x] You _must_ use Redux as your state management system
+- [x] Complete the tasks listed within:
       _ `./reducers/index.js`
       _ `./actions/index.js`
       _ `./index.js`
       _ `./App.js`
       _ `./components/AddForm.js`
       _ `./components/Smurf.js` \* `./components/SmurfDisplay.js`
-- [ ] You completed application should do the following: - Fetch and display data from the included server code on mounting. - Provide the user a form for adding in the Name, Position, Nickname and Description of a new Smurf. - Allow new smurfs to be added to the list when the submit smurf button is pressed. - Displays an error alert when name, position or nickname is not included in the submission. - Include the word "Error" and "name/position/nickname" in the rendered error alert as approprate. - Does NOT display an error alert when description is left blank. - Display an error alert if a smurf is submitted with a name already assigned to a smurf. - Include the word "Error" and the returned server error message in the rendered error alert as approprate. - DO NOT REMOVE ANY data-testid FIELDS FROM THE CODE. These fields are used for internal grading of your sprints. While we don't recommend using testid in most cases, it is necessary our grading systems currently.
+- [x] You completed application should do the following: - Fetch and display data from the included server code on mounting. - Provide the user a form for adding in the Name, Position, Nickname and Description of a new Smurf. - Allow new smurfs to be added to the list when the submit smurf button is pressed. - Displays an error alert when name, position or nickname is not included in the submission. - Include the word "Error" and "name/position/nickname" in the rendered error alert as approprate. - Does NOT display an error alert when description is left blank. - Display an error alert if a smurf is submitted with a name already assigned to a smurf. - Include the word "Error" and the returned server error message in the rendered error alert as approprate. - DO NOT REMOVE ANY data-testid FIELDS FROM THE CODE. These fields are used for internal grading of your sprints. While we don't recommend using testid in most cases, it is necessary our grading systems currently.
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. You will be scored on your adherence to proper code style and good organization. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -124,14 +124,14 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-- [ ] Build a smurf profile page with using react-router and dynamic url params
-- [ ] Using React Testing Library, test one or more of your components (not any component that fetches data though)
+- [x] Build a smurf profile page with using react-router and dynamic url params
+- [x] Using React Testing Library, test one or more of your components (not any component that fetches data though)
 
 ## Submission format
 
 Follow these steps for completing your project.
 
-- [ ] Ensure that your projects are complete on your <firstName-lastName> branch.
-- [ ] Merge your <firstName-lastName> branch into your main branch.
-- [ ] Push your main branch to github and check that it is registers within codegrade.
-- [ ] Check your personal feedback the following Monday. For more information check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-Student-facing-c5147cee220c4044a25de28bcb6bb54a)
+- [x] Ensure that your projects are complete on your <firstName-lastName> branch.
+- [x] Merge your <firstName-lastName> branch into your main branch.
+- [x] Push your main branch to github and check that it is registers within codegrade.
+- [x] Check your personal feedback the following Monday. For more information check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-Student-facing-c5147cee220c4044a25de28bcb6bb54a)
